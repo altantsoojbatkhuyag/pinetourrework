@@ -1,0 +1,690 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hanuman-regular {
+  font-family: "Hanuman", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-regular-500 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inter-regular-600 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-700 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-optical-sizing: auto;
+  font-style: normal;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.headerdiv {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  padding-left: 118px;
+  padding-right: 118px;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  justify-content: space-between;
+  display: flex;
+  margin: auto;
+  width: 1440px;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+}
+
+.headertop {
+  width: 392px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  height: 22px;
+  font-weight: 600;
+  font-style: "Semi Bold";
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: capitalize;
+}
+.header h1 {
+  font-weight: 600;
+  font-style: "Semi Bold";
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+  border-radius: 24px;
+  display: flex;
+}
+
+.hero {
+  background-image: url(Hero.png);
+  background-size: cover;
+  width: 1440px;
+  height: 773px;
+  opacity: 1;
+}
+
+.headertext {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 70px;
+  padding-bottom: 210px;
+}
+
+.puremagic {
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 80px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: uppercase;
+
+  color: #e8edf2b8;
+}
+
+.awaits {
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 250px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #fff;
+
+  -webkit-text-stroke: 4px #fff;
+}
+
+.h2024 {
+  color: #ffffffcc;
+  font-weight: 900;
+  font-style: Black;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+}
+
+.card {
+  background-image: url(Location.png);
+  background-size: cover;
+  height: 500px;
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding-left: 110px;
+  padding-top: 65px;
+}
+
+.cards {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.cards:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.whitelake {
+  background-image: url(terkhiin.png);
+}
+
+.amar {
+  background-image: url(amar.png);
+}
+
+.khuvslake {
+  background-image: url(khuvsgul.png);
+}
+
+.khorgo {
+  background-image: url(khorgiin.png);
+}
+
+.huduu {
+  background-size: cover;
+  width: 276px;
+  height: 370px;
+  overflow: hidden;
+  border-radius: 40px;
+  box-shadow: 8px 8px #29728b40, -8px -8px #1f72aa75;
+  color: #fdfdfecc;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 5px #000000a6;
+  align-items: center;
+  justify-content: center;
+}
+
+.roadmap {
+  background-image: url(Roadmap.png);
+  background-size: cover;
+  width: 1440px;
+  height: 1022px;
+}
+.rmt {
+  width: fill;
+  height: 24px;
+  text-align: center;
+  color: #18181bb2;
+}
+
+.roadmaptext {
+  padding-top: 120px;
+}
+
+.roadmaptext h1 {
+  width: 1442px;
+  height: 51px;
+  font-size: 42px;
+  text-align: center;
+  vertical-align: bottom;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.radmaptext p {
+  padding-top: 10px;
+  color: #18181bb2;
+  font-size: 21px;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: capitalize;
+}
+
+.hovercard {
+  width: 513px;
+  height: 112px;
+  opacity: 1px;
+  border-radius: 120px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  justify-content: space-between;
+  padding-left: 30px;
+  display: flex;
+}
+
+.sukheet {
+  background: #eee9d9;
+  border: 4px solid #eee9d900;
+}
+.amarbays {
+  background: #8bb8c1cc;
+  border: 4px solid #8bb8c100;
+}
+.khorgiint {
+  background: #aad8d7cc;
+  border: 4px solid #aad8d700;
+}
+.terkhiint {
+  background: #8bc0bdcc;
+  border: 4px solid #8bc0bd00;
+}
+.khuvsgult {
+  background: #97cce0cc;
+  border: 4px solid #97cce000;
+}
+
+.hovercardtransition p {
+  font-weight: 300;
+  font-style: "Regular";
+  font-size: 14px;
+  line-height: 80%;
+}
+.hovercardtransition h2 {
+  font-weight: 400;
+  font-style: "Medium";
+  font-size: 25px;
+}
+
+.hovercard:hover {
+  border: 4px solid white;
+}
+
+.sukhee_image {
+  height: 245px;
+  width: 245px;
+  display: none;
+  position: absolute;
+  top: 160px;
+  right: 150px;
+}
+
+.amarbays_image {
+  height: 245px;
+  width: 245px;
+  display: none;
+  position: absolute;
+  top: 70px;
+  right: 300px;
+}
+
+.khorgiint_image {
+  height: 245px;
+  width: 245px;
+  display: none;
+  position: absolute;
+  top: 150px;
+  right: 500px;
+}
+
+.terkhiint_image {
+  height: 245px;
+  width: 245px;
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 450px;
+}
+.khuvsgult_image {
+  height: 245px;
+  width: 245px;
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 500px;
+}
+.hovercard:hover + .terkhiint_image {
+  display: block;
+}
+.hovercard:hover + .khuvsgult_image {
+  display: block;
+}
+.hovercard:hover + .khorgiint_image {
+  display: block;
+}
+
+.hovercard:hover + .amarbays_image {
+  display: block;
+}
+
+.hovercard:hover + .sukhee_image {
+  display: block;
+}
+
+.hovercardday {
+  font-style: normal;
+  font-size: 14px;
+  border-radius: 100%;
+  background-color: white;
+  text-align: center;
+  width: 52px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hovercard p {
+  font-weight: 100px;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.hovercardtransition {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.flex {
+  display: flex;
+  gap: 12px;
+}
+
+.transition {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 120px;
+  gap: 20px;
+  position: relative;
+}
+
+.footer {
+  background-image: url(Footer.png);
+  background-size: cover;
+  height: 1109px;
+  width: 1440px;
+}
+
+.fheader {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  padding-top: 36px;
+}
+
+.fheader p {
+  font-weight: 400;
+  font-style: "Medium";
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  text-transform: capitalize;
+  color: #18181bb2;
+}
+.choose1 {
+  display: flex;
+  align-items: center;
+  margin-left: 535px;
+}
+
+.choose2 {
+  display: flex;
+  align-items: center;
+  margin-left: 505px;
+  font-size: 45px;
+}
+.fheader h1 {
+  font-weight: 600;
+  font-style: "Semi Bold";
+  line-height: 100%;
+  letter-spacing: 1%;
+  vertical-align: bottom;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-left: 120px;
+  padding-top: 80px;
+}
+
+.box {
+  background-color: white;
+  height: 527px;
+  width: 384px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box:hover {
+  box-shadow: 8px 8px #29648b53, -8px -8px #3636365f;
+}
+
+.textheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.box:hover .footerbutton {
+  background-color: black;
+  color: white;
+}
+
+.popu {
+  margin-right: 24px;
+  width: 91px;
+  height: 27px;
+  color: white;
+  background-color: #6972b5;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+
+.footertitle {
+  display: flex;
+  width: 384px;
+  height: 92px;
+  border-bottom: 1px;
+  padding-top: 32px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  gap: 16px;
+}
+
+.hearttag {
+  width: 36px;
+  height: 36px;
+  gap: 10px;
+}
+.hearttag:hover {
+  filter: brightness(90%);
+}
+.footertext {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-style: "Medium";
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #121316;
+}
+
+.details {
+  padding-left: 24px;
+  padding-top: 12px;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.price h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 100%;
+}
+.price1 {
+  font-weight: 500;
+  font-style: "Medium";
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #919191;
+}
+
+.containers {
+  padding-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.containers1 {
+  padding-top: 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.containers1 h1 {
+  font-weight: 500;
+  font-style: "Medium";
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  padding-left: 40px;
+}
+
+.containers1 p {
+  color: #5b5c5e;
+  font-weight: 500;
+  font-style: "Medium";
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+}
+
+.containers h1 {
+  font-weight: 500;
+  font-style: "Medium";
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  padding-left: 40px;
+}
+
+.containers p {
+  color: #5b5c5e;
+  font-weight: 500;
+  font-style: "Medium";
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+}
+
+.check {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  gap: 20px;
+  /* width: 336px; */
+}
+.check p {
+  width: 300px;
+}
+.footterbutton h1 {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -1%;
+}
+
+.button {
+  margin-top: 37px;
+  margin-left: 24px;
+  width: 336px;
+  height: 48px;
+  border-radius: 40px;
+  background-color: #a4d1e2;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footersocial {
+  height: 389px;
+  width: 1440px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footerfbig {
+  color: #6972b5;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: bottom;
+  background-color: white;
+  width: 167px;
+  height: 44px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  gap: 10px;
+  border-radius: 25px;
+  display: flex;
+  text-align: center;
+  margin: 0px;
+}
+
+.footerlogo {
+  width: 101px;
+  height: 35px;
+  margin-left: 730px;
+  font-family: "mmontserrat-700" sans-serif;
+}
+
+.sociallinks {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-left: 120px;
+  padding-bottom: 80px;
+}
+.fontsize1 {
+  font-size: 16px;
+}
